@@ -1,0 +1,145 @@
+/* partie Consty css */
+
+/* fin partie consty css  */
+
+
+/* partie Abdoul Matini css */
+section.first
+{
+    margin-top: 50px;
+}
+section.first .first_right 
+{
+    /* border: 1px solid black; */
+}
+section.first .first_right .t_choo
+{
+    display: inline-flex;
+}
+section.first .first_right .tiret 
+{
+    border: 2px solid green;
+    background-color: green;
+    width: 100px;
+    height: 2px;
+    margin: 35px 10px;
+}
+section.first .first_right .choose
+{
+    color: green;
+}
+section.first .first_right .choose h2
+{
+    font-size: 2em;
+}
+section.first .first_right h2
+{
+    font-size: 3em;
+    font-weight: bold;
+}
+
+/* ----------reason-------  */
+section.select_2
+{
+    position: relative;
+}
+.section-right
+{
+    margin: 0 20px;
+}
+section.reason
+{
+    /* border: 1px solid black; */
+    margin-top: 15px;
+    box-shadow: 0 0 5px gray;
+    transition: all 0.4s ease-in-out;
+    border-radius: 20px;
+    padding:15px;
+    display: flex;
+    /* text-align: center; */
+}
+section.reason:hover
+{
+    box-shadow: 0 0 14px gray;
+}
+section.reason .reason_img
+{
+    margin-right: 20px;
+}
+section.reason .reason_img img
+{
+    margin: 20px 0;
+}
+section.reason .reason_text .r_text h4
+{
+    font-weight: bold;
+    font-size: 1.5em;  
+}
+section.reason .reason_text .r_text p
+{
+    color: rgb(141, 140, 140);
+}
+@media (max-width: 997px) 
+{
+    section.reason
+    {
+        /* border: 1px solid black; */
+        display: block;
+        text-align: center;
+    }  
+}
+@media (max-width: 575px) 
+{
+    section.reason
+    {
+        width: 100%;
+    }  
+}
+
+.selected
+{
+    background-color: rgb(224, 224, 224);
+    /* height: 600px; */
+    padding-top: 100px;
+}
+.selected .select_1
+{
+    display: inline-flex;
+}
+.selected .select_1 .tiret 
+{
+    border: 2px solid green;
+    background-color: green;
+    width: 100px;
+    height: 2px;
+    margin: 35px 10px;
+}
+.selected .select_1 .choose
+{
+    color: green;
+}
+.selected .select_1 .choose h2
+{
+    font-size: 2em;
+}
+/* .select_info
+{
+    position: absolute;
+    top: 350px;
+} */
+
+.select_info
+{
+    border: 1px solid black;
+}
+.select_info .select_info_body
+{
+    width: 50%;
+}
+/* fin partie Abdoul matini css */
+
+
+
+/* partie Koffi css */
+
+/* fin partie Koffi css */
